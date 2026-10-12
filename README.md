@@ -1,4 +1,3 @@
-```markdown
 # 4Chain: Blockchain-Based Academic Credential Verification System
 
 A secure, decentralized platform designed to issue, store, and verify academic credentials and certificates immutably using blockchain technology and InterPlanetary File System (IPFS) storage.
@@ -13,7 +12,7 @@ Traditional academic credential verification relies on centralized institutional
 
 ## Tech Stack
 
-* **Backend:** Python, Flask 
+* **Backend:** Python, Flask
 * **Decentralized Storage:** IPFS (InterPlanetary File System)
 * **Blockchain Integration:** Smart contracts / Verification hashing
 * **Document Processing:** PDF generation, PyMuPDF, qrcode generation
@@ -93,7 +92,7 @@ graph TD
 
 1. **Clone the repository:**
 ```bash
-git clone [https://github.com/alishajamal/4chain.git](https://github.com/alishajamal/4chain.git)
+git clone https://github.com/alishajamal/4chain.git
 cd 4chain
 
 ```
@@ -138,9 +137,5 @@ python run.py
 
 This project was built as a collaborative effort with shared responsibilities across the backend architecture:
 
-* **Alisha Jamal:** Flask server configuration, cryptographic hash generation, IPFS storage integration, and QR code embedding.
+* **Alisha Jamal:** cryptographic hash generation, IPFS storage integration, and QR code embedding.
 * **Devansh:** Blockchain integration and core backend logic.
-
-```
-
-```
